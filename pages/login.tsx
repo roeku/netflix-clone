@@ -11,7 +11,7 @@ interface Inputs {
 }
 
 function Login() {
-  const [login, setLogin] = React.useState<boolean>(false)
+  const [login, setLogin] = React.useState<boolean>(true)
   const { signIn, signUp } = useAuth()
 
   const {
